@@ -488,7 +488,7 @@ subdir_makefiles := \
 	$(shell build/tools/findleaves.py --prune=out --prune=.repo --prune=.git $(subdirs) Android.mk)
 
 include $(subdir_makefiles)
-include $(TOP)/build/tools/override/gonk-hack.mk
+include build/tools/override/gonk-hack.mk
 endif # ONE_SHOT_MAKEFILE
 
 # -------------------------------------------------------------------
