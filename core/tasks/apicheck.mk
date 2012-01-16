@@ -17,7 +17,8 @@
 # api compatibility or added apis illegally.
 #
 
-ifneq ($(BUILD_TINY_ANDROID), true)
+#ifneq ($(BUILD_TINY_ANDROID), true)
+ifneq ($(FFFFF),)
 
 .PHONY: checkapi
 
